@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+streamlit
+ctransformers
+pdfplumber
+pydantic
+requests
+openai
+python-multipart
+transformers
