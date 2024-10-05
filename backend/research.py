@@ -5,8 +5,8 @@ import requests
 router = APIRouter()
 
 #Google Custom Search API Keys
-API_KEY = "AIzaSyBE_nUswAheraZXm9pI2xvWS8Q0q20vzvc"
-SEARCH_ENGINE_ID = "27513c8150ab24c7a"
+API_KEY = "Avhgvnjsjbshjbsxgfxshbxjm" #Replace with your google api key
+SEARCH_ENGINE_ID = "352r62hafg234" # Replace with your search engine id
 API_ENDPOINT = "https://www.googleapis.com/customsearch/v1"
 
 class ResearchRequest(BaseModel):
