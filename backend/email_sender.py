@@ -16,8 +16,8 @@ async def send_email(
     try:
         smtp_server = "smtp.gmail.com"
         smtp_port = 587
-        smtp_username = "nsharmila2910@gmail.com"  # My email
-        smtp_password = "hsft nhgd qjkv oalm"      # app password
+        smtp_username = "abc@gmail.com"  # Replace with your mail id
+        smtp_password = "abcd efgh ijkl mnop"      # Replace with your app password
 
         msg = MIMEMultipart()
         msg['From'] = formataddr(("Sharmila", smtp_username))
